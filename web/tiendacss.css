@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.black-border {
+  height: 2rem;
+  background-color: black;
+}
+
+header {
+  background-color: lightgrey;
+  text-align: center;
+  position: relative;
+}
+
+header h1 {
+  padding: 3rem 0;
+}
+
+.images {
+  border: 1px solid black;
+  padding: 1vh;
+  position: relative;
+  display: flex;
+  height: 15rem;
+}
+
+.images img {
+  display: flex;
+}
+
+#image1 {
+  position: absolute;
+}
+
+#image2 {
+  position: absolute;
+  left: 45%;
+}
+
+#image3 {
+  position: absolute;
+  right: 0;
+}
+
+input {
+  margin: 3vh 1vh;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.middle-separator {
+  height: 2rem;
+  background-color: lightgrey;
+}
+
+.login {
+  padding: 3vh;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+table.lista {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+table {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;  
+}
+
+table.lista th {
+    background-color: grey;
+}
+
+.login table td, .login h2 {
+  /*padding: 1vh;*/
+}
+
+footer {
+  height: 2rem;
+  background-color: lightgrey;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
